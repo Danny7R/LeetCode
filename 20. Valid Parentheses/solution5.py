@@ -1,6 +1,6 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        dict = {'(': ')', '[': ']', '{': '}'}
+        dic = {'(': ')', '[': ']', '{': '}'}
         stack = []
         for char in s:
             if (char in dic): stack.append(dic.get(char))
