@@ -1,7 +1,6 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not grid: return 0
-        
         c = 0
         for i in range(len(grid)):
             for j in range(len(grid[0])):
