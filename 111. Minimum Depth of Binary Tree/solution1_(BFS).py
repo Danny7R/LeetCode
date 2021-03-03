@@ -17,4 +17,3 @@ class Solution:
                 if node.left: nextlevel.append(node.left)
                 if node.right: nextlevel.append(node.right)
             level = nextlevel
-        # return depth
